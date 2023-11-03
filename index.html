@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="style/estilo.css">
+    
+</head>
+<body>
+   <main> 
+        <div class="container">
+            <form id="contact-form" onsubmit="return false;">
+                <h2>Formulario de Contacto</h2>
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" autocomplete="off" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="apellido" name="apellido" autocomplete="off" placeholder="Apellido" required>
+                </div>
+                <div class="form-group">
+                    <input type="number" id="DNI" name="DNI" autocomplete="off" placeholder="DNI" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="Email" name="Email" autocomplete="off" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="Telefono" name="Telefono" autocomplete="off" placeholder="Telefono" required>
+                </div>
+                <div class="form-group" id="selector">
+                    <label for="mensaje" id="lblTipo">Tipo De Seguro:</label>
+                    <select id="TipoSeguro" required>
+                        <option value="" disabled selected hidden>Seleccione El Tipo De Seguro</option>
+                        <option value="$500">Basico</option>
+                        <option value="$1000">Intermedio</option>
+                        <option value="$1500">Premium</option>
+                    </select>
+                    <p id="valor"></p>
+                </div>
+                <div id="enviar">
+                    <button type="submit" id="enviarBtn" >Enviar Solicitud</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="js/formulario.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>
