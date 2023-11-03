@@ -1,5 +1,5 @@
 # React-js-Arg-Prog-4.0
-<!-- Curso Argentina Programa 4.0 React Js 
+Curso Argentina Programa 4.0 React Js 
 
 Profesor: José Luis Condori
 
@@ -32,4 +32,3 @@ Consigna Ejercicio Unidad 1:
     ● Basico: $500
     ● Intermedio: $1000
     ● Premium: $1500
- -->
